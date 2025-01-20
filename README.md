@@ -1,50 +1,51 @@
-# React + TypeScript + Vite
+# 🚀 My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This project showcases my skills, experience, and projects in a sleek, modern, and responsive design. Built with the latest web technologies, it’s designed to be both visually appealing and user-friendly.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖥️ Technologies Used
 
-## Expanding the ESLint configuration
+- **React**: Front-end framework for building a dynamic user interface.
+- **TypeScript**: Ensures type safety and cleaner code.
+- **Material-UI (MUI)**: Provides a modern design system with pre-styled components.
+- **EmailJS**: Enables the contact form to send emails seamlessly.
+- **CSS3 & Custom Styling**: For dark and neon-themed design aesthetics.
+- **GitHub Pages**: Hosting the live version of this portfolio.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🌟 Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop devices.
+- **Modern Dark Theme**: Neon accents for a sleek, professional appearance.
+- **Interactive Animations**: Smooth transitions and effects for a dynamic experience.
+- **Sections Included**:
+  - **Home**: A warm welcome and introduction.
+  - **About Me**: Skills, education, and soft skills.
+  - **Employment History**: Professional experience with detailed descriptions.
+  - **Projects**: A showcase of my best work with links and details.
+  - **Contact**: Social media links and a functional contact form.
+- **Contact Form**: Users can send emails directly to me.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 📸 Screenshots
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+> Add screenshots of your website here. You can upload screenshots to your GitHub repository and reference them like this:
+
+![Home Section](./screenshots/home.png)
+![Projects Section](./screenshots/projects.png)
+
+---
+
+## 🔧 Setup Instructions
+
+Follow these steps to run the project locally:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/portfolio-website.git
+   cd portfolio-website
+   npm install
+   npm start
