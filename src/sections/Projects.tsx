@@ -3,9 +3,9 @@ import { Box, Typography, Grid, Card, CardContent } from '@mui/material';
 
 const Projects: React.FC = () => {
   const projectList = [
-    { title: 'Project 1', description: 'A cool project.' },
-    { title: 'Project 2', description: 'Another awesome project.' },
-    { title: 'Project 3', description: 'Yet another great project.' },
+    { title: 'Project 1', description: 'Coming soon ...' },
+    { title: 'Project 2', description: 'Coming soon ...' },
+    { title: 'Project 3', description: 'Coming soon ...' },
   ];
 
   return (

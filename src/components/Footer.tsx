@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography, IconButton } from '@mui/material';
-import { GitHub, LinkedIn, Twitter } from '@mui/icons-material';
+import { GitHub, LinkedIn, X } from '@mui/icons-material';
 
 const Footer: React.FC = () => {
   return (
@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
         Connect with me:
       </Typography>
       <IconButton
-        href="https://github.com/"
+        href="https://github.com/Sorin0907"
         target="_blank"
         sx={{
           color: 'primary.main',
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
         <GitHub />
       </IconButton>
       <IconButton
-        href="https://linkedin.com/"
+        href="https://www.linkedin.com/in/sorin-adamoiu/"
         target="_blank"
         sx={{
           color: 'primary.main',
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
         <LinkedIn />
       </IconButton>
       <IconButton
-        href="https://twitter.com/"
+        href="https://x.com/SAdamoiu"
         target="_blank"
         sx={{
           color: 'primary.main',
@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
           },
         }}
       >
-        <Twitter />
+        <X />
       </IconButton>
       <Typography variant="caption" display="block" mt={2} sx={{ color: 'text.secondary' }}>
         © {new Date().getFullYear()} My Portfolio

@@ -9,8 +9,8 @@ const ContactInfo: React.FC = () => {
   const [formMessage, setFormMessage] = useState('');
 
   const socialLinks = [
-    { icon: <GitHub color="secondary" />, label: 'GitHub', link: 'https://github.com/yourusername' },
-    { icon: <LinkedIn color="secondary" />, label: 'LinkedIn', link: 'https://linkedin.com/in/yourusername' },
+    { icon: <GitHub color="secondary" />, label: 'GitHub', link: 'https://github.com/Sorin0907' },
+    { icon: <LinkedIn color="secondary" />, label: 'LinkedIn', link: 'https://www.linkedin.com/in/sorin-adamoiu/' },
   ];
 
   const handleSubmit = (event: React.FormEvent) => {
